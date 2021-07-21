@@ -1,1 +1,23 @@
-Teste
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <title>HTML</title>
+  </head>
+  <body>
+    <h1>Exercícios</h1>
+    <h1><strong>Com Quem Já Fiz Contato na Trybe!</strong></h1>
+<ul>
+<li>Renato Zanella</li>
+<li>João Paulo</li>
+<li>Eric Cruz</li>
+<li>Emmanuelle Pereira</li>
+<li>Bruno Miranda Pereira</li>
+<li>Murilo Amaral</li>
+<li>Ricardo Zabir</li>
+<li>Matheus Jesus</li>
+</ul>
+<img src="https://pt.wikipedia.org/wiki/Ficheiro:Galera_-_TV_Cultura.jpg">
+  </body>
+</html>
+

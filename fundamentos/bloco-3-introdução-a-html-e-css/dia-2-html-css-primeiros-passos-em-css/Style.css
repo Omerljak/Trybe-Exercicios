@@ -1,0 +1,41 @@
+<style>
+h1 {
+    font-family: sans-serif;
+    text-size-adjust: 65;
+    color: orange;
+    background-color: powderblue;
+}
+.favorite-colors {
+    background-color: blueviolet ;
+}
+p {
+    font-weight: 600;
+    font-size: 3em;
+}
+body {
+    font-size: 16px;
+    background-color: olive;
+}
+#A {
+    background-color: yellow;
+    font-style: oblique;
+    font-weight: 900;
+    font: normal;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#V {
+    font-family: cursive;
+    background-color: red;
+    font-style: italic;
+    font-weight: bolder;
+    text-align-last: center;
+}
+#M {
+    background-color: brown;
+    text-align: right;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+ul {
+    line-height: 35px;
+}
+    </style>

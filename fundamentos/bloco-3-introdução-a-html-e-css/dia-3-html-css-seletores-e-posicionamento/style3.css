@@ -1,0 +1,34 @@
+p, h1 {
+    text-align: center;
+}
+
+li:hover {
+    background-color: tomato;
+    font-family: monospace;
+}
+ol, ul {
+    margin-left: 30px;
+    list-style: none;
+}
+div:hover {
+    color: green;
+}
+.A {
+    color: yellow;
+    font-style: italic;
+}
+.B {
+    color: rgb(223, 144, 55);
+}
+.C {
+    color: orchid;
+    font-style: italic;
+    font-size: 25px;
+}
+.D {
+    color: rgb(85, 3, 3);
+}
+.E {
+    color: cadetblue;
+    font-style: italic;
+}

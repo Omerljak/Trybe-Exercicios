@@ -1,0 +1,50 @@
+.red-font {
+    color: red;
+}
+.it {
+    font-size: 40px;
+    border: 1px solid black;
+}
+li {
+    font-size: 20px;
+}
+
+div.cinco-frases {
+    background-color: yellow;
+}
+div.cinco-frases li:nth-of-type(odd) {
+    font-size: 20px;
+    font-weight: 300;
+    text-transform: uppercase;
+}
+div.cinco-frases li:nth-of-type(even) {
+    font-size: 20px;
+    font-weight: 700;
+    color: green;
+}
+.blue {
+    color: blue;
+}
+.java {
+    background-color: pink;
+}
+div.Maiores-aliados:hover {/*
+    font: bolder;
+    font-family: monospace; */porque não esta alterando a fonte*/
+}
+.a:hover {
+    background-color: orange;
+    
+}
+.b:hover {
+    background-color: green;
+}
+.c:hover {
+    background-color: black;
+}
+.d:hover {
+    background-color: yellow;
+}
+.e:hover {
+    background-color: greenyellow;
+}

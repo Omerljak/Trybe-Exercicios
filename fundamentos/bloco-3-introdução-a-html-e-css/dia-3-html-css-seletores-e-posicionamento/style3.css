@@ -11,7 +11,7 @@ ol, ul {
     list-style: none;
 }
 div:hover {
-    color: green;
+    border: 3px solid black;
 }
 .A {
     color: yellow;

@@ -89,3 +89,19 @@ if (nota > 100) {
 } else if (nota <= 50) {
     console.log("F");
 } 
+
+//Exercicio 8
+
+if (a || b || c % 2 == 0) {
+    console.log("true");
+} else {
+    console.log("false");
+}
+
+//Exercicio 9
+
+if (a || b || c % 2 == 1) {
+    console.log("true");
+} else {
+    console.log("false");
+}

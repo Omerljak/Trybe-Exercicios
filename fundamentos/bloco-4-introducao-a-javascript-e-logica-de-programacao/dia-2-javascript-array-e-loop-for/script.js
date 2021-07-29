@@ -28,10 +28,27 @@ for (let index = 0; index < numbers.length; index += 1) {
 
 //Exercicio 3
 
-let soma = 0;
+/*let soma = 0;
 let media = 0;
 for (let index = 0; index < numbers.length; index += 1) {
     soma = (soma + numbers[index]);
     media = (soma / numbers.length);
 } 
     console.log(media);
+
+    resultado = 27.8*/
+
+//Exercicio 4
+
+let soma = 0;
+let media = 0;
+for (let index = 0; index < numbers.length; index += 1) {
+    soma = (soma + numbers[index]);
+    media = (soma / numbers.length);
+} 
+if (media > 20 ) {
+    console.log("valor maior que 20");
+} else {
+    console.log("valor menor ou igual a 20");
+}
+    

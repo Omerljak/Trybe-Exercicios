@@ -105,3 +105,19 @@ if (a || b || c % 2 == 1) {
 } else {
     console.log("false");
 }
+
+//Exercicio 10 Bastante dificil, NOVIDADE inserir variáveis dentro do else como solução//
+
+let custo = 100;
+let venda = 200;
+
+if (custo < 0 || venda < 0) {
+    console.log("erro");
+} else {
+    let imposto = 1.2
+    let custoTotal = custo * imposto;
+    let lucroUnid = venda - custoTotal;
+    let produtosVendidos = 1000;
+    let lucroTotal = lucroUnid * produtosVendidos;
+    console.log(lucroTotal);
+}

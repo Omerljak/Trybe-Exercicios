@@ -69,6 +69,19 @@ if (angulo1 && angulo2 && angulo3 >= 0) {
 }
 
 //Exercicio 6
+let peça =("bishop");
+let movimento ="";
+
+
+    if (peça = "bishop") {
+        console.log("Diagonais");
+} else if (peça = "tower") {
+        console.log("em linha");
+} else if (peça ="horse") {
+        console.log("L moves") 
+} else {
+        console.log(movimento);
+}
 
 //Exercicio 7
 

@@ -19,4 +19,5 @@ let player = {
 
 /*console.table("A jogadora " + player.name + " " + player.lastName + " " + "foi eleita a melhor do mundo" +" " + player.bestInTheWorld.length + " anos.");*/
 
-console.table( "A jogadora possui " + player.medals.golden + " de ouro e " + player.medals.silver + " de prata.");
+/*console.table( "A jogadora possui " + player.medals.golden + " de ouro e " + player.medals.silver + " de prata.");*/
+

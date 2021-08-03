@@ -2,7 +2,7 @@ let info = {
     personagem: 'Margarida',
     origem: 'Pato Donald',
     nota: 'Namorada do personagem principal nos quadrinhos do Pato Donald',
-    recorrente: "sim", //exercicio 2
+    recorrente: "sim", 
   };
 let plus = {
     personagem: 'Tio Patinhas',
@@ -16,9 +16,10 @@ let plus = {
   }
   console.log(" Seja bem vinda, " + info.personagem + "!" );*/
 
-  /*
+ /* 
   //EXERCICIO 2 e 3  ok
   
+info[recorrente] = "sim",  //insere nova propriedade ou sobrescreve existente de mesmo nome//
 for ( let index in info) {
   console.log(index);
 }*/
@@ -29,8 +30,12 @@ for ( let index in info) {
   console.log(info[index]);
 } */
 
-//Exercicio 5
+//Exercicio 5 ok
 
 for ( let index in info && plus) {
-  console.log(info[index] + " e " + plus[index]);
+  if (info[index] === "sim" && plus[index] === "sim") {
+    console.log("Ambos são recorrentes");
+  } else {
+    console.log(info[index] + " e " + plus[index]);
+}
 }

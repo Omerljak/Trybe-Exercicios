@@ -66,7 +66,7 @@
       let myMain = document.createElement('main');
         myMain.className = 'main-content';
         document.body.appendChild(myMain);
-      // add ta section e classe, filho de main
+      // add tag section e classe, filho de main
       let mySection = document.createElement('section');
         mySection.className = 'center-content';
         myMain.appendChild(mySection);
@@ -74,8 +74,14 @@
       let myParagraf = document.createElement('p');
         myParagraf.innerHTML = 'Eu sou pequeno, me dizem, e eu fico muito zangado. Tenho de olhar todo mundo com o queixo levantado. Mas, se formiga falasse e me visse lá do chão, ia dizer, com certeza: Minha nossa, que grandão!';
         mySection.appendChild(myParagraf);  
-
-
+      // Add section left e classe , filho main
+      let myLeftSection = document.createElement('section');
+        myLeftSection.className = 'left-content';
+        myMain.appendChild(myLeftSection);
+        // Add section rigth e classe , filho main
+      let myRigthSection = document.createElement('section');
+        myRigthSection.className = 'rigth-content';
+        myMain.appendChild(myRigthSection);
     </script>
   </body>
 </html>

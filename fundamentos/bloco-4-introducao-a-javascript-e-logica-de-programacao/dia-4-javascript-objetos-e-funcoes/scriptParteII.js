@@ -21,10 +21,9 @@ let numeros = [2, 3, 6, 7, 10, 1];
       let maiorNumero = 0;
       let indiceArray = 0;
     for (index = 0; index < numeros.length; index += 1) {
-         if(maiorNumero < numeros[index]) {
-            maiorNumero = numeros[index];
-            indiceArray = index;
-      }
-    } 
-    return indiceArray;
-  }
+         if(maiorNumero > numeros[index]) {
+           console.log(maiorNumero);
+          }
+        }
+    
+    //return indiceArray;

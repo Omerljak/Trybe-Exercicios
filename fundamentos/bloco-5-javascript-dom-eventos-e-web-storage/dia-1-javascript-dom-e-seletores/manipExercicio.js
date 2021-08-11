@@ -1,4 +1,4 @@
-document.getElementsByTagName('p')[0].innerHTML = 'A Trybe proporciona uma virada de Vida!';
+document.getElementsByTagName('p')[0].innerHTML = 'Na Trybe você aprende o que o Mundo quer!';
 document.getElementsByTagName('p')[1].innerHTML = 'Parece que foi ontem que nem sonhava que era possivel ser um DEV!';
 document.getElementsByTagName('p')[2].innerHTML = 'Trybe exige muito, mas só o necessário'
 
@@ -6,18 +6,20 @@ document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(
 document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
 document.getElementsByClassName('title')[0].innerHTML = 'Exercício 5.1 - JavaScript';
 
-function toUpperCase() { // não resolvido
-let lowCase = document.getElementsByTagName('p');
-lowCase = lowCase.toUpperCase();
+function psMaiusculo() {
+  let listaPs = document.getElementsByTagName('p')
+  for (let i = 0; i < listaPs.length; i += 1) {
+   listaPs[i].innerHTML = listaPs[i].innerHTML.toUpperCase();
+  }
 }
-
-function paragrafos() { // não resolvido
-    let paragraph = document.getElementsByTagName('p');
+psMaiusculo();
+console.log(listaPs[i].innerHTML);
+/*function paragrafos() { // não resolvido
+let paragraph = document.getElementsByTagName('p');
   for (let i = 0; i < paragraph.length; i =+ 1) {
-    paragraph = paragraph[i];
- }
-}
-paragrafos()
+  paragraph = paragraph[i];
+ } */
+
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()

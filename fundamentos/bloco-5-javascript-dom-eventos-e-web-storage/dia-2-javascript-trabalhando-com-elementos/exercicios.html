@@ -84,29 +84,29 @@
         myRigthSection.className = 'rigth-content';
         myMain.appendChild(myRigthSection);
         // Add image e classe, filho leftSection NÃO SOLUCIONADO
-      let myImage = document.createElement('image');
+      let myImage = document.createElement('img');
         myImage.className = 'small-image';
-        myImage.innerHTML = 'image'
-        src = ''
+        myImage.src = 'https://picsum.photos/200';
         myLeftSection.appendChild(myImage);
-        // Add Lista ul filha de rigthSection ERRO
-      let creatUl = document.createElement('ul');
-        creatUl.className = 'ul-created';
-        myRigthSection.appendChild(creatUl);
+        // Add Lista ul filha de rigthSection ERRO AO INSERIR AS li
+        let creatUl = document.createElement('ul');
+          creatUl.className = 'ul-created';
+          myRigthSection.appendChild(creatUl);
 
-      let myUl = document.querySelector('.ul-created');
-      let myUlnum = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
-        for(i = 0; i < myUlnum.length; i += 1);
-      let numbers = myUlnum[i];
-      let intensList = document.createElement('li');
-        intensList.innerHTML = numbers
-        creatUl.appendChild(intensList);
+       /*  let myNumbers = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+        let myUlLi = document.querySelector('ul -created');
+      for(i = 0; i < myLiNum.length; i += 1);
+        let numbers = myNumbers[i];
+        let intensList = document.createElement('li');
+          intensList.innerHTML = numbers;
+        creatUl.appendChild(intensList); */
 
         //Add 3 tag h3 filhas de main
       let myH3 = document.createElement('h3');
         myH3.className = 'description';
+        for(i = 0; i < myH3 < 3; i += 1);
         myMain.appendChild(myH3);
-        //for(i = 0; i < myH3 < 3; i += 1);
+        console.log(myH3);
     </script>
   </body>
 </html>

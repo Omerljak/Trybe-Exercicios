@@ -1,7 +1,23 @@
+document.getElementsByTagName('p')[0].innerHTML = 'A Trybe proporciona uma virada de Vida!';
 document.getElementsByTagName('p')[1].innerHTML = 'Parece que foi ontem que nem sonhava que era possivel ser um DEV!';
+document.getElementsByTagName('p')[2].innerHTML = 'Trybe exige muito, mas só o necessário'
+
 document.getElementsByClassName('main-content')[0].style.backgroundColor = 'rgb(76,164,109)';
 document.getElementsByClassName('center-content')[0].style.backgroundColor = 'white';
 document.getElementsByClassName('title')[0].innerHTML = 'Exercício 5.1 - JavaScript';
+
+function toUpperCase() { // não resolvido
+let lowCase = document.getElementsByTagName('p');
+lowCase = lowCase.toUpperCase();
+}
+
+function paragrafos() { // não resolvido
+    let paragraph = document.getElementsByTagName('p');
+  for (let i = 0; i < paragraph.length; i =+ 1) {
+    paragraph = paragraph[i];
+ }
+}
+paragrafos()
         /*
         Aqui você vai modificar os elementos já existentes utilizando apenas as funções:
         - document.getElementById()

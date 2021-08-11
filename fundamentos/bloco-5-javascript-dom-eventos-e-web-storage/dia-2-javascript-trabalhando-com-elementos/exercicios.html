@@ -60,6 +60,7 @@
       // PARTE 1
       //add tag h1 e texto, filho de body
       let myH1 = document.createElement('h1');
+        myH1.className = 'title';
         myH1.innerHTML = 'Exercício 5.2 - JavaScript DOM';
         document.body.appendChild(myH1);
       //add tag main e classe, filho de body
@@ -82,6 +83,30 @@
       let myRigthSection = document.createElement('section');
         myRigthSection.className = 'rigth-content';
         myMain.appendChild(myRigthSection);
+        // Add image e classe, filho leftSection NÃO SOLUCIONADO
+      let myImage = document.createElement('image');
+        myImage.className = 'small-image';
+        myImage.innerHTML = 'image'
+        src = ''
+        myLeftSection.appendChild(myImage);
+        // Add Lista ul filha de rigthSection ERRO
+      let creatUl = document.createElement('ul');
+        creatUl.className = 'ul-created';
+        myRigthSection.appendChild(creatUl);
+
+      let myUl = document.querySelector('.ul-created');
+      let myUlnum = ['um', 'dois', 'três', 'quatro', 'cinco', 'seis', 'sete', 'oito', 'nove', 'dez'];
+        for(i = 0; i < myUlnum.length; i += 1);
+      let numbers = myUlnum[i];
+      let intensList = document.createElement('li');
+        intensList.innerHTML = numbers
+        creatUl.appendChild(intensList);
+
+        //Add 3 tag h3 filhas de main
+      let myH3 = document.createElement('h3');
+        myH3.className = 'description';
+        myMain.appendChild(myH3);
+        //for(i = 0; i < myH3 < 3; i += 1);
     </script>
   </body>
 </html>
